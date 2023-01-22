@@ -147,15 +147,13 @@ padding-bottom: 50px;
     padding-left: 0px;
     background-color:black;
     border-radius:15px;
-   
+    color:white;
     margin-top: 20px;
 }
 
 .row{ padding-bottom: 50px;
 width: 100%;}
-.text-center{
-    color: #cccccc;
-}
+
 
 .category-tile{
     position:relative;
@@ -236,12 +234,21 @@ max-width: 250px;
    }
     
  }
+ @media (max-width:770px) and (min-width:420px){
+    .col-sx-4{
+        width: 33.3%;
+        float: left;
+    }
+   
+}
  @media (max-width:771px){
     .col-xs-12{
         width:100%;
         float: left;
     }
+   
  }
+ 
  
   @media (min-width:992px){
   .row .col-md-3{
