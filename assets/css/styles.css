@@ -27,8 +27,13 @@ padding-top: 25px;
 }
 #options{
     float:inline-end;
-    color:aliceblue;
+    color:black;
     font-size: 1.2em;
+    width: 100px;
+    height: 30px;
+    text-align: center;
+    border-radius: 25px;
+    background-color: white;
 }
  h1 {
     font-family:serif;
@@ -234,20 +239,22 @@ max-width: 250px;
    }
     
  }
- @media (max-width:770px) and (min-width:420px){
-    .col-sx-4{
-        width: 33.3%;
-        float: left;
-    }
-   
-}
+ 
  @media (max-width:771px){
     .col-xs-12{
         width:100%;
         float: left;
     }
+    .col-sx-4{
+        color: #000;
+    }
    
  }
+ @media (min-width:770px){
+    .col-sx-4{
+        color: white;
+    }
+   }
  
  
   @media (min-width:992px){
