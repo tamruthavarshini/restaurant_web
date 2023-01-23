@@ -276,3 +276,6 @@ max-width: 250px;
         float: left;
     }
  }
+ #specials{
+    border-radius: 30px;
+ }
