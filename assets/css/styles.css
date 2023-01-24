@@ -392,6 +392,8 @@ input[type=text], select, textarea {
   animation-name: example;
   animation-duration: 7s;  
   animation-fill-mode: forwards;
+  width: 100%;
+  height: auto;
   }
   
   @keyframes example {
