@@ -386,5 +386,15 @@ input[type=text], select, textarea {
   input[type=submit]:hover {
     background-color: #45a049;
   }
+  #bday1{
+    margin-top: 200px;
+    position: relative;
+  animation-name: example;
+  animation-duration: 7s;  
+  animation-fill-mode: forwards;
+  }
   
-  
+  @keyframes example {
+    from {bottom: 0px;}
+    to {bottom: 175px; }
+  }
